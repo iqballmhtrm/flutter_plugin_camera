@@ -1,16 +1,15 @@
-# flutter_plugin_camera
+Langkah 2: Penjelasan
+Langkah 2 bertujuan untuk menggunakan plugin auto_size_text agar teks dapat otomatis menyesuaikan ukuran container, mencegah teks terpotong atau melebihi batas container.
 
-A new Flutter project.
+Langkah 5: Penjelasan
+Langkah 5 menambahkan variabel text dan parameter di constructor untuk memungkinkan widget RedTextWidget menerima teks dinamis yang dapat diubah saat dipanggil.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Langkah 6: Fungsi dan Perbedaan Dua Widget
+RedTextWidget: Menggunakan AutoSizeText agar teks menyesuaikan ukuran container secara otomatis.
+Text: Menampilkan teks biasa tanpa penyesuaian otomatis, ukuran teks harus diatur secara manual.
+Penjelasan Parameter Plugin auto_size_text:
+text: Teks yang akan ditampilkan.
+style: Mengatur gaya teks (warna, ukuran font, dll.).
+maxLines: Batas maksimal baris teks yang bisa ditampilkan.
+overflow: Menentukan bagaimana teks yang terpotong ditampilkan 
+![alt text](image.png)
